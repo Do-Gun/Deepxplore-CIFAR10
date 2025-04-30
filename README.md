@@ -86,8 +86,8 @@ KERAS_BACKEND=tensorflow python gen_diff.py light 3 0.5 0.1 10 500 0.2 -t 0
 
 
 ## 5. 실험 결과
-![image](https://github.com/user-attachments/assets/102c0101-e2db-4905-8641-e6a8714c0da2)
 ![image](https://github.com/user-attachments/assets/8b8d8320-c866-4990-bae6-0c59bf234320)
+![image](https://github.com/user-attachments/assets/102c0101-e2db-4905-8641-e6a8714c0da2)
 
 1. 각 모델의 초기 예측부터 “동일하지 않은 경우” 존재 (3, 7, 8)
 2. 
