@@ -90,14 +90,14 @@ KERAS_BACKEND=tensorflow python gen_diff.py light 3 0.5 0.1 10 500 0.2 -t 0
 ![image](https://github.com/user-attachments/assets/8b8d8320-c866-4990-bae6-0c59bf234320)
 ![image](https://github.com/user-attachments/assets/102c0101-e2db-4905-8641-e6a8714c0da2)
 
-1) 각 모델의 초기 예측부터 “동일하지 않은 경우” 존재 (3, 7, 8)
+**1) 각 모델의 초기 예측부터 “동일하지 않은 경우” 존재 (3, 7, 8)**
 
 → 공격을 시도하지 않아도 서로 다른 예측이 발생함
 
 **→ 모델 간 weight가 실험을 위해 충분히 다름을 의미, DeepXplore 세팅 유효성을 정성적으로 확인**
 
-2) 각 모델의 초기 예측이 “동일한 경우”에만 DeepXplore 적용
-3) 
+**2) 각 모델의 초기 예측이 “동일한 경우”에만 DeepXplore 적용**
+
 **→ Target model(model2.h5, index0)가 다른 예측 결과를 내보냄 (공격 성공) (1, 6, 9, 10)**
 
 → 공격 실패 경우도 존재함 (2)
