@@ -15,6 +15,7 @@ git clone https://github.com/Do-Gun/Deepxplore-CIFAR10.git
 cd Deepxplore-CIFAR10
 ```
 
+**Testing만 진행하려면 환경 설정 이후 바로 4번으로 이동 (모델, 테스트 데이터 준비 무시)**
 
 ## 2. 모델 준비 (이미 준비 해놨기에, Testing 과정에서는 넘어감)
 초기 모델은 https://github.com/kusiwu/Resnet50-Cifar10-Python-Keras epoch 20 가중치 사용
