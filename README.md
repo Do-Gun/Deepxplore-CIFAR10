@@ -23,7 +23,8 @@ cd Deepxplore-CIFAR10
 초기 모델은 https://github.com/kusiwu/Resnet50-Cifar10-Python-Keras epoch 20 가중치 사용
 
 이후 아래 스크립트로 1 epoch씩 fine-tuning 하여 실험에 사용할 5개 모델 생성됨
--> 최대한 균일하게 학습되었으면서도, 조금씩만 다른 모델 확보를 위함
+
+→ 최대한 균일하게 학습되었으면서도, 조금씩만 다른 모델 확보를 위함
 
 trained_models 파일 내부
 
