@@ -35,6 +35,9 @@ python python finetuning.py
 ```
 
 Epoch 1/1
+[INFO] Loading ./trained_models/resnet50model1.h5 → Training 1 epoch → Saving ./trained_models/resnet50model2.h5
+Train on 50000 samples, validate on 10000 samples
+Epoch 1/1
 50000/50000 [==============================] - 259s - loss: 0.3801 - acc: 0.8702 **- val_loss: 0.6599 - val_acc: 0.7982**
 [INFO] 1 epoch training done in 263.26 sec.
 [INFO] Saved: ./trained_models/resnet50model2.h5
