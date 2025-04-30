@@ -25,10 +25,10 @@ trained_models 파일 내부
 
 0) resnet50model1.h5 (epoch: 20, 실험에 사용하지 않는 초기 모델 가중치)
 1) resnet50model2.h5 (epoch: 20 + 1)
-2) resnet50model3.h5
-3) resnet50model4.h5
-4) resnet50model5.h5
-5) resnet50model6.h5
+2) resnet50model3.h5 (epoch: 20 + 2)
+3) resnet50model4.h5 (epoch: 20 + 3)
+4) resnet50model5.h5 (epoch: 20 + 4) 
+5) resnet50model6.h5 (epoch: 20 + 5)
 
 새로운 가중치 만들고 싶은 경우만 (Testing 과정에서는 필요 없음)
 ```bash
@@ -71,7 +71,13 @@ Epoch 1/1
 [INFO] 1 epoch training done in 261.72 sec.
 [INFO] Saved: ./trained_models/resnet50model6.h5
 
-## 3. 
+
+## 3. 실행
+```bash
+KERAS_BACKEND=tensorflow python gen_diff.py light 3 0.5 0.1 10 500 0.2 -t 0
+```
+![image](https://github.com/user-attachments/assets/c14f6bf5-8f6a-444c-bec8-bf9d99809a04)
+
 
 
 
