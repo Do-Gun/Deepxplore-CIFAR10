@@ -18,7 +18,7 @@ cd Deepxplore-CIFAR10
 
 ## 2. 모델 준비 (이미 준비 해놨기에, Testing 과정에서는 넘어감)
 초기 모델은 https://github.com/kusiwu/Resnet50-Cifar10-Python-Keras epoch 20 가중치 사용
-이후 아래 스크립트로 1 epoch씩 fine-tuning 하여 실험에 사용할  5개 모델 생성
+이후 아래 스크립트로 1 epoch씩 fine-tuning 하여 실험에 사용할 5개 모델 생성됨
 
 trained_models 파일 내부
 
@@ -34,7 +34,40 @@ trained_models 파일 내부
 python python finetuning.py
 ```
 
-# 
+Epoch 1/1
+50000/50000 [==============================] - 259s - loss: 0.3801 - acc: 0.8702 **- val_loss: 0.6599 - val_acc: 0.7982**
+[INFO] 1 epoch training done in 263.26 sec.
+[INFO] Saved: ./trained_models/resnet50model2.h5
+
+[INFO] Loading ./trained_models/resnet50model2.h5 → Training 1 epoch → Saving ./trained_models/resnet50model3.h5
+Train on 50000 samples, validate on 10000 samples
+Epoch 1/1
+50000/50000 [==============================] - 257s - loss: 0.3028 - acc: 0.8968 **- val_loss: 0.6997 - val_acc: 0.7986**
+[INFO] 1 epoch training done in 261.11 sec.
+[INFO] Saved: ./trained_models/resnet50model3.h5
+
+[INFO] Loading ./trained_models/resnet50model3.h5 → Training 1 epoch → Saving ./trained_models/resnet50model4.h5
+Train on 50000 samples, validate on 10000 samples
+Epoch 1/1
+50000/50000 [==============================] - 255s - loss: 0.2322 - acc: 0.9218 **- val_loss: 0.7134 - val_acc: 0.7994**
+[INFO] 1 epoch training done in 259.07 sec.
+[INFO] Saved: ./trained_models/resnet50model4.h5
+
+[INFO] Loading ./trained_models/resnet50model4.h5 → Training 1 epoch → Saving ./trained_models/resnet50model5.h5
+Train on 50000 samples, validate on 10000 samples
+Epoch 1/1
+50000/50000 [==============================] - 260s - loss: 0.1821 - acc: 0.9362 **- val_loss: 0.7458 - val_acc: 0.8034**
+[INFO] 1 epoch training done in 264.48 sec.
+[INFO] Saved: ./trained_models/resnet50model5.h5
+
+[INFO] Loading ./trained_models/resnet50model5.h5 → Training 1 epoch → Saving ./trained_models/resnet50model6.h5
+Train on 50000 samples, validate on 10000 samples
+Epoch 1/1
+50000/50000 [==============================] - 257s - loss: 0.1387 - acc: 0.9541 **- val_loss: 0.7932 - val_acc: 0.8026**
+[INFO] 1 epoch training done in 261.72 sec.
+[INFO] Saved: ./trained_models/resnet50model6.h5
+
+## 3. 
 
 
 
