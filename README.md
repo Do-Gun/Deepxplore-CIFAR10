@@ -71,12 +71,26 @@ Epoch 1/1
 [INFO] 1 epoch training done in 261.72 sec.
 [INFO] Saved: ./trained_models/resnet50model6.h5
 
+## 3. Test Data (이미 준비해놨기에, Testing 과정에서는 넘어감)
+CIFAR-10에서 30개의 테스트 데이터를 추출 (test/center 파일에 이미 저장해놓음)
+```bash
+python save_data.py
+```
 
-## 3. 실행
+
+## 4. 실행
 ```bash
 KERAS_BACKEND=tensorflow python gen_diff.py light 3 0.5 0.1 10 500 0.2 -t 0
 ```
 ![image](https://github.com/user-attachments/assets/95054c8d-c08f-480e-8996-f9c20032cf1c)
+
+
+## 5. 실험 결과
+![image](https://github.com/user-attachments/assets/b42cbadc-fe4a-4576-8f7b-6a64bea4e1b7)
+
+
+
+
 
 
 
