@@ -77,7 +77,7 @@ Epoch 1/1
 [INFO] 1 epoch training done in 261.72 sec.
 [INFO] Saved: ./trained_models/resnet50model6.h5
 
-## 3. Test Data (이미 준비해놨기에, Testing 과정에서는 넘어감)
+## 3. 테스트 데이터 준비 (이미 준비해놨기에, Testing 과정에서는 넘어감)
 CIFAR-10에서 30개의 테스트 데이터를 추출 (test/center 파일에 이미 저장해놓음)
 ```bash
 python save_data.py
