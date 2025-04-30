@@ -1,6 +1,8 @@
 # DeepXplore with CIFAR-10 (ResNet50)
 
-This project demonstrates DeepXplore's differential testing on CIFAR-10 using multiple ResNet50 models fine-tuned with slight variations.
+Problem1) DeepXplore 5개의 ResNet50 모델에서 실행
+의심스럽거나 오류가 있는 것으로 보이는 데이터 발견하면 이를 보고
+
 
 ---
 
@@ -21,6 +23,7 @@ cd Deepxplore-CIFAR10
 초기 모델은 https://github.com/kusiwu/Resnet50-Cifar10-Python-Keras epoch 20 가중치 사용
 
 이후 아래 스크립트로 1 epoch씩 fine-tuning 하여 실험에 사용할 5개 모델 생성됨
+-> 최대한 균일하게 학습되었으면서도, 조금씩만 다른 모델 확보를 위함
 
 trained_models 파일 내부
 
