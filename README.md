@@ -12,10 +12,11 @@ pip install tensorflow==1.3.0 keras==2.0.8 Pillow==6.2.2 h5py==2.10.0 opencv-pyt
 
 
 git clone https://github.com/Do-Gun/Deepxplore-CIFAR10.git
-cd Deepxplore-CIFAR10 ```
+cd Deepxplore-CIFAR10
+```
 
 
 ## 2. 모델 준비
-# 최초 모델은 https://github.com/kusiwu/Resnet50-Cifar10-Python-Keras 의 epoch 20 가중치 사용
-# 이후 아래 스크립트로 1 epoch씩 fine-tuning 하여 총 6개 모델 생성
+최초 모델은 https://github.com/kusiwu/Resnet50-Cifar10-Python-Keras 의 epoch 20 가중치 사용
+이후 아래 스크립트로 1 epoch씩 fine-tuning 하여 총 6개 모델 생성
 python finetuning.py
