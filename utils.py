@@ -9,7 +9,7 @@ def preprocess_image(img_path, target_size=(32, 32)):
     img = image.load_img(img_path, target_size=target_size)
     x = image.img_to_array(img)
     x = np.expand_dims(x, axis=0)
-    x = x.astype('float32')  # 정규화 안 함
+    x = x.astype('float32')  
     return x
 
 def deprocess_image(x):
