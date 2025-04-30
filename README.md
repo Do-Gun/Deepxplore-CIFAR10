@@ -24,18 +24,18 @@ cd Deepxplore-CIFAR10
 trained_models 파일 내부
 
 0) resnet50model1.h5 (epoch: 20, 실험에 사용하지 않는 초기 모델 가중치)
-1) resnet50model2.h5 (epoch: 20 + 1)
-2) resnet50model3.h5 (epoch: 20 + 2)
-3) resnet50model4.h5 (epoch: 20 + 3)
-4) resnet50model5.h5 (epoch: 20 + 4) 
-5) resnet50model6.h5 (epoch: 20 + 5)
+1) resnet50model2.h5 (epoch: 20 + 1, 실험에 사용)
+2) resnet50model3.h5 (epoch: 20 + 2, 실험에 사용)
+3) resnet50model4.h5 (epoch: 20 + 3, 실험에 사용)
+4) resnet50model5.h5 (epoch: 20 + 4, 실험에 사용) 
+5) resnet50model6.h5 (epoch: 20 + 5, 실험에 사용)
+**→ 총 5개의 ResNet50 사용**
 
 새로운 가중치 만들고 싶은 경우만 (Testing 과정에서는 필요 없음)
 ```bash
 python python finetuning.py
 ```
 
-Epoch 1/1
 [INFO] Loading ./trained_models/resnet50model1.h5 → Training 1 epoch → Saving ./trained_models/resnet50model2.h5
 Train on 50000 samples, validate on 10000 samples
 Epoch 1/1
