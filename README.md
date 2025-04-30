@@ -5,6 +5,7 @@ This project demonstrates DeepXplore's differential testing on CIFAR-10 using mu
 ---
 
 ## 1. 환경 설정
+```bash
 conda create -n deepxplore python=2.7 -y
 conda activate deepxplore
 pip install tensorflow==1.3.0 keras==2.0.8 Pillow==6.2.2 h5py==2.10.0 opencv-python==3.4.2.17
