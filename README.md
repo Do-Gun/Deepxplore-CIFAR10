@@ -21,6 +21,7 @@ cd Deepxplore-CIFAR10
 이후 아래 스크립트로 1 epoch씩 fine-tuning 하여 실험에 사용할  5개 모델 생성
 
 trained_models 파일 내부
+
 0) resnet50model1.h5 (epoch: 20, 실험에 사용하지 않는 초기 모델 가중치)
 1) resnet50model2.h5 (epoch: 20 + 1)
 2) resnet50model3.h5
