@@ -76,7 +76,8 @@ Epoch 1/1
 ```bash
 KERAS_BACKEND=tensorflow python gen_diff.py light 3 0.5 0.1 10 500 0.2 -t 0
 ```
-![image](https://github.com/user-attachments/assets/c14f6bf5-8f6a-444c-bec8-bf9d99809a04)
+![image](https://github.com/user-attachments/assets/95054c8d-c08f-480e-8996-f9c20032cf1c)
+
 
 
 
