@@ -86,7 +86,7 @@ KERAS_BACKEND=tensorflow python gen_diff.py light 3 0.5 0.1 10 500 0.2 -t 0
 
 
 ## 5. 실험 결과
-![image](https://github.com/user-attachments/assets/b42cbadc-fe4a-4576-8f7b-6a64bea4e1b7)
+![image.png](attachment:7dcd47e2-febe-4492-b9c0-6a3f62c6a8f0:image.png)
 
 
 
